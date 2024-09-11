@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MiPrimeraApp</string>
+    <string name="asteriscos">****</string>
+
+    <string-array name="entradas">
+        <item>ADMIN</item>
+        <item>Consulta</item>
+        <item>Operador</item>
+
+    </string-array>
+
+</resources>
