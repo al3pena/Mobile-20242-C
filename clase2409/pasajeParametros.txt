@@ -1,0 +1,21 @@
+            // Obtener el texto ingresado
+            val message = editText.text.toString()
+
+            // Crear un Intent para abrir la segunda actividad
+            val intent = Intent(this, SecondActivity::class.java).apply {
+                // Pasar el texto a la segunda actividad
+                putExtra("EXTRA_MESSAGE", message)
+            }
+
+            // Iniciar la segunda actividad
+            startActivity(intent)
+        }
+
+
+ // Obtener el Intent que inició la actividad y extraer el mensaje
+        val message = intent.getStringExtra("EXTRA_MESSAGE")
+
+        // Mostrar el mensaje en un TextView
+        val textView = findViewById<TextView>(R.id.textView).apply {
+            text = message
+        }
