@@ -1,4 +1,6 @@
-            // Obtener el texto ingresado
+%%%%%%%%%%%%%%%%%%%%%% PRIMER ACTIVITY %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+// Obtener el texto ingresado
             val message = editText.text.toString()
 
             // Crear un Intent para abrir la segunda actividad
@@ -11,6 +13,9 @@
             startActivity(intent)
         }
 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SEGUNDO ACTIVITY %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
  // Obtener el Intent que inició la actividad y extraer el mensaje
         val message = intent.getStringExtra("EXTRA_MESSAGE")
